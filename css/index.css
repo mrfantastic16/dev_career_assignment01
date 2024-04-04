@@ -1,0 +1,82 @@
+
+/* ________________ */
+/* HERO SECTION */
+
+.hero-section {
+    padding: 12.8rem;
+}
+
+.name, .intro-txt {
+    text-align: center;
+}
+
+.name {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    color: #339af0;
+}
+
+.intro-txt {
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.nav-link ion-icon {
+    font-size: 24px;
+    fill: #fff;
+}
+
+
+/* ________________ */
+/* ABOUT SECTION */
+
+.about-box {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 6.4rem 0;
+    gap: 3rem;
+    align-items: center;
+}
+
+.abt-img-box {
+    background: linear-gradient(to left, #339af0 50%, transparent 50%);
+    padding: 1.4rem;
+}
+
+.abt-img-box img {
+    width: 100%;
+}
+
+.goal-write-ups {
+    padding: 4rem 8rem;
+}
+
+.goal-title {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    color: #339af0;
+    margin-bottom: 1.6rem;
+}
+
+.goal-texts {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 
+### TYPOGRAPHY
+- font-size
+48, 40, 34,  28, 24, 20, 16, 14, 12, 8
+- spacing
+2, 4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128
+*/
